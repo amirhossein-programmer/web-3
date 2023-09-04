@@ -4,7 +4,7 @@ pragma solidity >=0.5.0 < 0.9.0 ;
 contract Token {
     string public name= "HardHat token" ;
     string public symbol = "HHT";
-    uint public totalSuply = 1000 ;
+    uint public totalSupply = 1000 ;
 
     address public owner;
     mapping (address=>uint)balances;
