@@ -10,7 +10,7 @@ contract Token {
     mapping (address=>uint)balances;
 
     constructor(){
-        balances[msg.sender] = totalSuply;
+        balances[msg.sender] = totalSupply;
         owner = msg.sender;
     }
     function transfer(address to, uint amount) external{
